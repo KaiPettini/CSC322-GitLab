@@ -1,1 +1,1 @@
-printf("Hello Very Happy World!");
+printf("Hello Crazy World!");
