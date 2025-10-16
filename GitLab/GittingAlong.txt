@@ -1,0 +1,40 @@
+Commands:
+
+mkdir GitLab
+cd GitLab
+mv ../HelloWorld.c .
+(git was already initialized)
+git add HelloWorld.c
+git commit -m "Initial commit"
+git push
+
+git remote add origin https://github.com/KaiPettini/CSC322-GitLab.git
+git remote set-url origin https://github.com/KaiPettini/CSC322-GitLab.git (was using another github session before)
+git branch -M main
+git push -u origin main
+
+vi HelloWorld.c (and edited the file)
+git add HelloWorld.c
+git commit -m "Changed to Crool"
+git push
+
+git branch Happy
+git checkout Happy
+git push -u origin Happy
+
+vi HelloWorld.c (and edited the file)
+git add HelloWorld.c
+git commit -m "Changed to Happy"
+git push
+
+git checkout main
+vi HelloWorld.c (and edited the file)
+git add HelloWorld.c
+git commit -m "Changed to Very Crool"
+git push
+
+git merge Happy
+vi HelloWorld.c (and fixed the issues, edited file)
+git add HelloWorld.c
+git commit -m "Merged"
+git push                             
