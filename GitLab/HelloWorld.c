@@ -4,7 +4,7 @@
 //-------------------------------------------------------------------------------------------------
 int main(void) {
 	
-    printf("Hello, Crool world\n");
+    printf("Hello, Very Crool world\n");
 
     return(EXIT_SUCCESS);
 }
